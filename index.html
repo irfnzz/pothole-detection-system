@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Finish Task.</title>
+    <link rel="icon" href="db.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="create_unfinished_task(), create_finished_task()">
+    <div id="content_container">
+      <div id="finish_task_header">
+        <p>Pothole Database</p>
+      </div>
+
+      <!-- Task To Do -->
+      <p class="header">Available pothole</p>
+      <div class="container"></div>
+    </div>
+  </body>
+</html>

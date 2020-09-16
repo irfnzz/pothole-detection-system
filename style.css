@@ -1,0 +1,147 @@
+body {
+  background-color: #75b79e;
+}
+
+#content_container {
+  background-color: #5b5656;
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+  padding-bottom: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 5%);
+}
+
+#finish_task_header {
+  margin: auto;
+  background-color: #4d4646;
+  color: white;
+  width: 90%;
+  height: 70px;
+  font-size: 60px;
+  font-family: monospace;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.header {
+  float: left;
+  margin-left: 5%;
+  background-color: #75b79e;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 5px #4d4646;
+}
+
+.container {
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 40px;
+  background-color: #f5eaea;
+  width: 90%;
+  height: 390px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.task_container {
+  background-color: #fff;
+  width: 90%;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.task_container:hover {
+  box-shadow: -2px 2px #75b79e;
+}
+
+#task_data {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+#task_tool {
+  display: inline-block;
+  float: right;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#task_title {
+  background-color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
+  float: left;
+  width: 100%;
+}
+
+#title_editing {
+  background-color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ffed83;
+  outline: none;
+}
+
+#title_editing:focus {
+  border-bottom: 3px solid #ffed83;
+}
+
+#date_editing {
+  background-color: #fff;
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 12px;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ffed83;
+  outline: none;
+}
+
+#date_editing:focus {
+  border-bottom: 3px solid #ffed83;
+}
+
+#task_date {
+  background-color: #fff;
+  font-family: monospace;
+  color: grey;
+  font-size: 12px;
+  float: left;
+  margin: 0;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
