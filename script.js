@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyBZZqtiaUmowTNhG-mAEcBwrs3DVnC5BL0",
-  authDomain: "pothole-68431.firebaseapp.com",
-  databaseURL: "https://pothole-68431.firebaseio.com",
-  projectId: "pothole-68431",
-  storageBucket: "pothole-68431.appspot.com",
-  messagingSenderId: "406914930227",
-  appId: "1:406914930227:web:3f1a48f056960b56fbf546",
+  apiKey: "AIzaSyDpJhIewJ7teS4TL9-CWQBIE5HkuVTu7Z4",
+  authDomain: "final-year-project-64d3d.firebaseapp.com",
+  databaseURL: "https://final-year-project-64d3d.firebaseio.com",
+  projectId: "final-year-project-64d3d",
+  storageBucket: "final-year-project-64d3d.appspot.com",
+  messagingSenderId: "633987528689",
+  appId: "1:633987528689:web:41eb92368e58db16bab650"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
